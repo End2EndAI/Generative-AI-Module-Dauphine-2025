@@ -19,7 +19,7 @@ This project offers you the opportunity to explore and implement your own idea u
 
 2. **Development:**
    - Implement the core functionality of your application
-   - Integrate LLM APIs (OpenAI, Azure OpenAI, or other providers)
+   - Integrate LLM APIs (OpenAI, or other providers)
    - Develop a user-friendly interface
    - Implement any necessary data processing or storage solutions
 
