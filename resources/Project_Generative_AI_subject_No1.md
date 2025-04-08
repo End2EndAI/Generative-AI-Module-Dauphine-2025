@@ -10,11 +10,11 @@ This project aims to develop a robust web application that integrates the princi
 ## Datasets
 
 Simulated enterprise data will be provided, which includes:
-- Twitter’s customer support data: tweets from customers and replies from customer service
-- ~~Customer’s emails and customer service agent’s responses~~
+- Twitter's customer support data: tweets from customers and replies from customer service
+- ~~Customer's emails and customer service agent's responses~~
 - ~~Customer service call transcripts~~
 - ~~Company Knowledge base PDF document~~
-- ~~Company’s FAQ~~
+- ~~Company's FAQ~~
 
 ## Objectives
 
@@ -75,15 +75,23 @@ In the opened terminal, use the following command to clone the repository : `git
 
 To get the `<YOUR_FORKED_REPOSITORY_URL>`, go into your forked repository, and click on `<> Code` and copy the HTTPS Web URL.
 
-6. Open Cursor and open the repository
+6. **IMPORTANT** : Copy or recreate the virtual environment
+
+You have two options:
+- Copy the `flask_env` folder created during the setup into your forked project folder
+- Or recreate the virtual environment in your project folder by following the same steps as in the setup guide
+
+You should have a folder `flask_env` in the folder `Generative-AI-Module-Dauphine-2025`
+
+7. Open Cursor and open the repository
 
 Click on `File`, `Open Folder`.
 
-7. Setup your virtual env in Cursor
+8. Setup your virtual env in Cursor
 
 Click on `Help`, `Show All Commands`. Type `Python: Select Interpreter` and choose your virtual env (`flask_env` from the guide).
 
-8. Test your environment
+9. Test your environment
 
 Open the files `notebooks\getting_started.ipynb` and `test_flask_app.py`, and run them, to see if everything is well configured.
 
