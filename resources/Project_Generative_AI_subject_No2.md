@@ -35,7 +35,7 @@ This project offers you the opportunity to explore and implement your own idea u
 ## Requirements
 
 1. Your project must:
-   - Use at least one LLM API (OpenAI, Azure OpenAI, or other providers)
+   - Use at least one LLM API (OpenAI or other providers)
    - Solve a real-world problem or create value
    - Have a functional user interface
    - Be properly documented
